@@ -2,7 +2,7 @@
     "name": "elm-theme",
     "displayName": "ELM Theme",
     "description": "A VS Code theme with initial focus on HTML, CSS, JS so some languages may have issues.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "SEE LICENSE IN LICENSE.md",
     "publisher": "explorelearnmake",
     "engines": {

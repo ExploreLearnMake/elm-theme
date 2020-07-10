@@ -2,11 +2,11 @@
 
 A VS Code theme with the hope of making it easier for new new developers to identify related elements, attributes, tags, etc. between HTML, CSS, and JavaScript files. Also trying to focus on readability and consideration for accessibility contrast.
 
-Current version: 0.0.1  
+Current version: 0.0.2
 
 ## Future Plans
 
-1. Continue fleshing out the semantic highlighting for HTML, CSS, and JavaScript.
+1. Continue fleshing out the semantic highlighting for HTML, CSS, JavaScript, JSON.
 2. Create a light version of the theme.
 3. Expand semantic highlighting for other languages.
 
