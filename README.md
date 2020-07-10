@@ -10,6 +10,10 @@ Current version: 0.0.2
 2. Create a light version of the theme.
 3. Expand semantic highlighting for other languages.
 
+## Screenshots
+
+![First Screen] (ElmTheme-html.png)
+
 ## Miscellaneous Stuff
 
 This is my first attempt at creating a theme, so there will be issues. Please feel free to submit an issue so I can take a look at it.
