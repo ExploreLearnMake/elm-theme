@@ -1,8 +1,8 @@
 /* 
   Initial version: Sarah Drasner (sdras) GitHub repo https://github.com/sdras/night-owl-vscode-theme/blob/master/demo/
-  Current version: 1.1
+  Current version: 1.2
   Modified by: Gordon Inman (explorelearnmake)
-  Modified: 7/2/2020
+  Modified: 7/10/2020
 */
 
 .someClass {
@@ -17,8 +17,14 @@ main {
   margin-top: 20px;
 }
 
-@media print {
+@media screen, print and (min-width: 800px) {
   body {
     margin: auto 15px 1em 5%;
+  }
+}
+
+@supports (display: flex) {
+  article {
+    display: flex;
   }
 }
