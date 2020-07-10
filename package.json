@@ -1,0 +1,26 @@
+{
+    "name": "elm-dark",
+    "displayName": "ELM Dark",
+    "description": "A dark theme created for ELM.",
+    "version": "0.0.1",
+    "author": {"name": "ExploreLearnMake"},
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ELM Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ELM Dark-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://"
+    }
+}
