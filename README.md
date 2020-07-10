@@ -1,4 +1,4 @@
-# "ELM theme"
+# ELM theme
 
 A VS Code theme with the hope of making it easier for new new developers to identify related elements, attributes, tags, etc. between HTML, CSS, and JavaScript files. Also trying to focus on readability and consideration for accessibility contrast.
 
