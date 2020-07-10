@@ -188,8 +188,8 @@
 		"statusBar.background": "#161b2c",
 		"statusBar.border": "#454c66",
 		"statusBar.foreground": "#b5cde9",
-		"statusBar.debuggingBackground": "#664545",
-		"statusBar.debuggingBorder": "#946464",	
+		"statusBar.debuggingBackground": "#1d839c",
+		"statusBar.debuggingBorder": "#54c0db",	
 		"statusBar.debuggingForeground": "#f5d4d4",
 		"statusBar.noFolderBackground": "#412b3e",
 		"statusBar.noFolderBorder": "#7a5876",
@@ -674,7 +674,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#eeb5c3"
 			}
 		},
 		{
@@ -683,7 +683,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#92e0b3"
 			}
 		},
 		{
@@ -747,6 +747,45 @@
 			],
 			"settings": {
 				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "JSON value",
+			"scope": [
+				"source.json meta.structure.dictionary.value.json",
+				"source.json string.quoted.double.json"
+			],
+			"settings": {
+				"foreground": "#e0e7b7"
+			}
+		},
+		{
+			"name": "JSON numbers",
+			"scope": [
+				"constant.numeric.json"
+			],
+			"settings": {
+				"foreground": "#6cf04b"
+			}
+		},
+		{
+			"name": "JSON constants",
+			"scope": [
+				"constant.language.json"
+			],
+			"settings": {
+				"foreground": "#faa4f6"
+			}
+		},
+		{
+			"name": "JSON Punctuation",
+			"scope": [
+				"source.json punctuation.separator",
+				"source.json punctuation.definition.dictionary",
+				"source.json punctuation.definition.array"
+			],
+			"settings": {
+				"foreground": "#b5cde9"
 			}
 		},
 		{
