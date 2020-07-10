@@ -62,10 +62,10 @@
 		"editorGroupHeader.noTabsBackground": "#1d202b",
 		"editorGroupHeader.tabsBackground": "#1d202b",
 		"editorGroupHeader.tabsBorder": "#454c66",
-		"editorGutter.addedBackground": "#89FFFF",
+		"editorGutter.addedBackground": "#59ff61d0",
 		"editorGutter.background": "#0D101C",
 		"editorGutter.deletedBackground": "#f76a6a",
-		"editorGutter.modifiedBackground": "#920c5f8c",
+		"editorGutter.modifiedBackground": "#c51668dc",
 		"editorGutter.foldingControlForeground": "#9aa1bebd",
 		"editorHoverWidget.background": "#161b2c",
 		"editorHoverWidget.border": "#9aa1be",
@@ -254,18 +254,21 @@
 			}
 		},
 		{
-			"name": "HTML Punctuation",
+			"name": "HTML CSS Punctuation",
 			"scope": [
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html"
+				"text.html punctuation.definition.tag",
+				"source.css punctuation.terminator",
+				"source.css punctuation.separator",
+				"source.css punctuation.definition.parameters",
+				"source.css punctuation.definition.condition",
+				"source.css punctuation.section"
 			],
 			"settings": {
 				"foreground": "#b5cde9"
 			}
 		},
 		{
-			"name": "HTML tag names",
+			"name": "HTML Tag Names",
 			"scope": [
 				"entity.name.tag.html",
 				"entity.name.tag.css",
@@ -279,17 +282,17 @@
         "meta.tag.html"
 			],
 			"settings": {
-				"foreground": "#f092a9"
+				"foreground": "#e9a1b3"
 			}
 		},
 		{
 			"name": "HTML Attributes",
 			"scope": [
-				"entity.other.attribute-name.html"
+				"meta.attribute"
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#c9f194"
+				"foreground": "#ff9999"
 			}
 		},
 		{
@@ -298,7 +301,7 @@
 				"string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#beeefa",
+				"foreground": "#86cbdf",
 				"fontStyle": ""
 			}
 		},
@@ -316,7 +319,6 @@
 		{
 			"name": "CSS ID's",
 			"scope": [
-				"source.sass keyword.control",
 				"meta.attribute.id.html",
 				"entity.other.attribute-name.id.css"
 			],
@@ -326,40 +328,61 @@
 			}
 		},
 		{
-			"name": "CSS Class and Support",
+			"name": "CSS Keywords",
+			"scope": [
+				"source.css keyword",
+				"punctuation.definition.keyword.css"
+			],
+			"settings": {
+				"foreground": "#d18bff"
+			}
+		},
+		{
+			"name": "CSS Properties",
 			"scope": [
 				"source.css support.type.property-name",
 				"source.sass support.type.property-name",
 				"source.scss support.type.property-name",
 				"source.less support.type.property-name",
 				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
+				"source.postcss support.type.property-name",
+				"meta.at-rule.media.header.css"
+				
 			],
 			"settings": {
-				"foreground": "#a4fff0"
+				"foreground": "#e0e7b7"
 			}
 		},
 		{
-			"name": "CSS Property Constants",
+			"name": "CSS Property Constants and values",
 			"scope": [
-				"source.css support.constant.property-value.css",
 				"source.sass support.type.property-value.sass",
 				"source.scss support.type.property-value.scss",
 				"source.less support.type.property-value.less",
 				"source.stylus support.type.property-value.stylus",
-				"source.postcss support.type.property-value.postcss"
+				"source.postcss support.type.property-value.postcss",
+				"source.css support.constant"
 			],
 			"settings": {
-				"foreground": "#a6e007"
+				"foreground": "#f08d4b"
 			}
 		},
 		{
 			"name": "CSS Property Numbers",
 			"scope": [
-				"source.css constant.numeric.css",
+				"constant.numeric.css"
 			],
 			"settings": {
-				"foreground": "#c39af3"
+				"foreground": "#ffcdac"
+			}
+		},
+		{
+			"name": "CSS Units",
+			"scope": [
+				"source.css keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#86dfc4"
 			}
 		},
 		{
@@ -417,13 +440,12 @@
 			"name": "Keywords",
 			"scope": [
 				"keyword",
-				"keyword.control",
-				"punctuation.definition.keyword.css",
+				"keyword.control - source.css",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#d18bff"
+				"foreground": "#7aa4b8"
 			}
 		},
 		{
@@ -474,8 +496,8 @@
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
+				"support.constant - source.css",
 				"constant.language",
-				"support.constant",
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
@@ -505,7 +527,7 @@
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
-				"support.type",
+				"support.type - source.css",
 				"support.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
