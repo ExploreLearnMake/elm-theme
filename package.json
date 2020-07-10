@@ -1,9 +1,10 @@
 {
-    "name": "elm-dark",
-    "displayName": "ELM Dark",
-    "description": "A dark theme created for ELM.",
+    "name": "elm-theme",
+    "displayName": "ELM Theme",
+    "description": "A VS Code theme with initial focus on HTML, CSS, JS so some languages may have issues.",
     "version": "0.0.1",
-    "author": {"name": "ExploreLearnMake"},
+    "license": "SEE LICENSE IN LICENSE.md",
+    "publisher": "explorelearnmake",
     "engines": {
         "vscode": "^1.46.0"
     },
@@ -19,8 +20,11 @@
             }
         ]
     },
+    "bugs": {
+        "url": "https://github.com/ExploreLearnMake/elm-darktheme/issues"
+    },
     "repository": {
         "type": "git",
-        "url": "https://"
+        "url": "https://github.com/ExploreLearnMake/elm-darktheme"
     }
 }
