@@ -12,8 +12,7 @@ Current version: 0.0.2
 
 ## Screenshots
 
-![First Screenshot] (/images/ElmTheme-html.png)
-![First Screenshot] (ElmTheme-html.png)
+![First Screenshot](images/elm-dark-html.jpg)
 
 ## Miscellaneous Stuff
 
